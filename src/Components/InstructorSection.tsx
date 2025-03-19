@@ -31,7 +31,7 @@ export default function InstructorSection() {
             <h3 className="text-2xl font-bold mb-2 text-yellow-400">Venkatesh</h3>
             <p className="text-gray-200 mb-4">Certified Trainer at Ultra Fitness</p>
             <p className="text-gray-400 mb-6">
-            a certified fitness coach with a passion for helping clients achieve their best selves. With 10+ years of experience, Venkatesh specializes in strength training, weight loss, endurance building, etc.
+            A certified fitness coach with a passion for helping clients achieve their best selves. With 10+ years of experience, Venkatesh specializes in strength training, weight loss, endurance building, etc.
             </p>
 
             <InstructorStats />

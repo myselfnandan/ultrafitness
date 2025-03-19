@@ -52,7 +52,7 @@ export default function Bootcamp() {
             Login
           </button>
           </form>
-          <p className="text-center mt-5 text-[0.7rem] text-gray-500">Designed by "Nandan R"</p>        
+          <p className="text-center mt-5 text-[0.7rem] text-gray-500">{'Designed by "Nandan R"'}</p>        
       </div>
     </div>
   );
