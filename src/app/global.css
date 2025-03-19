@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply bg-gray-900 text-white;
+}
+
+/* Transparent Swiper Navigation Buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: transparent !important;
+  color: white !important; /* Change if needed */
+  font-size: 24px !important;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Adjust icon size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1;
+}
+
+.swiper-pagination {
+  background: transparent !important;
+}
+
+.swiper-pagination-bullet {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important; /* Semi-transparent border */
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
