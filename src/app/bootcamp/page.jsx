@@ -13,7 +13,7 @@ export default function Bootcamp() {
     e.preventDefault();
 
     if (email === "ultrafitness@gmail.com" && password === "ultrafitness") {
-      router.push("/dashboard"); 
+      router.push("/login"); 
     } else {
       setError("Invalid email or password");
     }

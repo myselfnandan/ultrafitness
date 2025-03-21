@@ -2,7 +2,7 @@ import { productionCdnPrefix } from './cdn-cofig.js'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
+	output: 'standalone',
 	assetPrefix:
 		process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true'
 			? productionCdnPrefix

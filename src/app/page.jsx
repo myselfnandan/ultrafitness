@@ -21,7 +21,6 @@ const Home = () => {
               {`Sweat, Hustle, Repeat – Your Transformation Awaits!`}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              {/* Updated Link Component without <a> */}
               <Link
                 href="/about"
                 className="group px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300 animate-pulse flex items-center space-x-2"

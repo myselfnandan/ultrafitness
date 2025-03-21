@@ -38,8 +38,7 @@ const Footer = () => {
         </Link>
       </div>
       <p className="mt-4 mb-1 text-sm text-black bg-gray-400">
-        <Link className='bg-gray-400' href="/privacy">Privacy Policy</Link>
-      </p>
+       Privacy Policy</p>
       <p className="max-w-xl mx-auto text-[0.7rem] text-black bg-gray-400">
         Your privacy is our priority. We are committed to protecting your personal data and
         ensuring that your experience with us is safe and secure. Read our detailed privacy

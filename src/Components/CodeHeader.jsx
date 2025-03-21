@@ -11,6 +11,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Plans', href: '/about' },
   { name: 'Trainers', href: '/course' },
+  { name: 'Reach Out', href: '/contact' },
 ];
 
 export default function CodeHeader() {
